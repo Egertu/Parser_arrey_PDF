@@ -76,11 +76,6 @@ def parse_pdf_with_decimal_ranges(file_path, allowed_tags):
     return found_tags
 
 
-# Пример использования
-file_path = r"e:\Объекты\Адлер_6,7\СОТ\PDF\360-6.7-0-СОТ.СО.pdf"  # Укажите путь к вашему PDF файлу
-allowed_tags = ["ASS", "AMV"]  # Список разрешённых тегов
-result = parse_pdf_with_decimal_ranges(file_path, allowed_tags)
 
-# Вывод результатов
-for tag, numbers in result.items():
-    print(f"Тег: {tag}, Диапазон: {numbers}")
+
+

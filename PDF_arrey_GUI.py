@@ -134,7 +134,7 @@ entry_tags.pack(side="left", padx=5)
 frame_file1 = ctk.CTkFrame(root)
 frame_file1.pack(fill="x", padx=20, pady=5)
 
-label_file1 = ctk.CTkLabel(frame_file1, text="Первый PDF файл:")
+label_file1 = ctk.CTkLabel(frame_file1, text="РД:")
 label_file1.pack(side="left", padx=5)
 
 entry_file1 = ctk.CTkEntry(frame_file1, width=400)
@@ -147,7 +147,7 @@ button_browse_file1.pack(side="right", padx=5)
 frame_file2 = ctk.CTkFrame(root)
 frame_file2.pack(fill="x", padx=20, pady=5)
 
-label_file2 = ctk.CTkLabel(frame_file2, text="Второй PDF файл:")
+label_file2 = ctk.CTkLabel(frame_file2, text="СО:")
 label_file2.pack(side="left", padx=5)
 
 entry_file2 = ctk.CTkEntry(frame_file2, width=400)
